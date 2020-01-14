@@ -4,28 +4,24 @@
     "separator": "*"
   },
   "constructor": "M.plugin.FilteredSearch",
-  "parameters": [
-    {
-      "type": "object",
-      "properties": [
-        {
-          "type": "enum",
-          "name": "position",
-          "possibleValues": [
-            "TL",
-            "TR",
-            "BL",
-            "BR"
-          ],
-          "position": 0
-        }
-      ]
-    }
-  ],
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "possibleValues": [
+        "TL",
+        "TR",
+        "BL",
+        "BR"
+      ],
+      "position": 0
+    }]
+  }],
   "files": {
     "ol": {
-      "scripts": "filteredsearch.ol.min.js",
-      "styles": "filteredsearch.ol.min.css"
+      "scripts": ["filteredsearch.ol.min.js"],
+      "styles": ["filteredsearch.ol.min.css"]
     }
   },
   "metadata": {
